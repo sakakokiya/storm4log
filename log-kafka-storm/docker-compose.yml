@@ -34,7 +34,7 @@ kafka:
     - zookeeper:zk
   environment:
     BROKER_ID: 1
-    HOST_IP: 192.168.1.231
+    HOST_IP: 192.168.59.103
     PORT: 9092
   volumes:
     - /var/run/docker.sock:/var/run/docker.sock

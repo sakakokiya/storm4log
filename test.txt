@@ -1,0 +1,14 @@
+build
+
+mvn clean install
+cd target/
+tar xxx.tar.gz
+
+### edit conf
+vim conf/tracker.properties (or simple.properties)
+./bin/start.sh
+
+### tail log file
+tail -f logs/xxx.log
+
+https://github.com/jiekechoo/log-analysis-kafka-storm-docker
